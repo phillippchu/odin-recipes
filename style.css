@@ -48,18 +48,76 @@ h2 {
   font-size: 2.4rem;
 }
 
+h3 {
+  font-size: 1.9rem;
+}
+
 a {
   text-decoration: none;
 }
 
-/* Recipe Container */
-article {
-  width: 700px;
+/* Home Page */
+main {
+  width: 1000px;
   margin: 1em auto;
-  display: flex;
-  flex-direction: column;
+  /* border: 1px solid #000; */
 }
 
-section {
+header {
   width: 100%;
+  margin: 1em auto;
+  /* border: 1px solid blue; */
+  text-align: center;
+}
+
+header img {
+  width: 100%;
+}
+
+.all-recipes {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.all-recipes h2 {
+  max-width: 250px;
+  margin: 0 auto 1em auto;
+  border-bottom: 2px solid #000;
+}
+
+.all-recipes .recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  margin: .5em;
+}
+
+.all-recipes .recipes-grid .recipes-card {
+  border: 1px solid #000;
+  border-radius: 1rem;
+}
+
+/* Karaage Container */
+.karaage-container {
+  width: 1000px;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #000; */
+}
+
+.karaage-container section {
+  width: 100%;
+  margin-top: 1em;
+  /* border: 1px solid blue; */
+}
+
+.karaage-container ul>li {
+  line-height: 2.0;
+}
+
+.karaage-container ol>li {
+  line-height: 2.0;
 }
