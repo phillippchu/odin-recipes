@@ -99,8 +99,8 @@ header img {
   border-radius: 1rem;
 }
 
-/* Karaage Container */
-.karaage-container {
+/* Recipe Container */
+.recipe-container {
   width: 1000px;
   margin: 2em auto;
   display: flex;
@@ -108,16 +108,16 @@ header img {
   /* border: 1px solid #000; */
 }
 
-.karaage-container section {
+.recipe-container section {
   width: 100%;
   margin-top: 1em;
   /* border: 1px solid blue; */
 }
 
-.karaage-container ul>li {
+.recipe-container ul>li {
   line-height: 2.0;
 }
 
-.karaage-container ol>li {
+.recipe-container ol>li {
   line-height: 2.0;
 }
