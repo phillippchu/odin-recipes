@@ -102,7 +102,7 @@ header img {
 /* Recipe Container */
 .recipe-container {
   width: 1000px;
-  margin: 2em auto;
+  margin: 0 auto 2em auto;
   display: flex;
   flex-direction: column;
   /* border: 1px solid #000; */
@@ -120,4 +120,10 @@ header img {
 
 .recipe-container ol>li {
   line-height: 2.0;
+}
+
+.recipe-footer {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
 }
