@@ -65,7 +65,7 @@ main {
 
 header {
   width: 100%;
-  margin: 1em auto;
+  /* margin: 1em auto; */
   /* border: 1px solid blue; */
   text-align: center;
 }
@@ -126,4 +126,33 @@ header img {
   display: flex;
   flex-direction: column;
   line-height: 2;
+}
+
+/* Media Queries */
+@media (max-width: 540px) {
+  main {
+    width: 80vw;
+  }
+
+  .all-recipes .recipes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .recipe-container {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 900px) {
+  main {
+    width: 90vw;
+  }
+
+  .all-recipes .recipes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .recipe-container {
+    width: 80vw;
+  }
 }
